@@ -29,7 +29,7 @@ cd okta-go-api-sample
 go run main.go
 ```
 
-Now, send requests to http://localhost:4200.
+Now, send requests to http://localhost:8080.
 
 ```bash
 curl -X GET  http://localhost:8080/api/hello
