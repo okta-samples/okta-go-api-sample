@@ -12,7 +12,7 @@ import (
 
 func Init() {
 
-	godotenv.Load("./.env")
+	godotenv.Load("./.okta.env")
 
 	port := os.Getenv("PORT")
 
