@@ -25,7 +25,7 @@ func Init() {
 
 	// Apply the middleware to the router (works with groups too)
 	router.Use(cors.Middleware(cors.Config{
-		Origins:         "*",
+		Origins:         "https://localhost",
 		Methods:         "GET, PUT, POST, DELETE",
 		RequestHeaders:  "Origin, Authorization, Content-Type",
 		ExposedHeaders:  "",
