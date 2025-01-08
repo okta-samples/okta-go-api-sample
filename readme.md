@@ -10,6 +10,11 @@ Before running this sample, you will need the following:
 - [The Okta CLI Tool](https://github.com/okta/okta-cli/#installation)
 - An Okta Developer Account, create one using `okta register`, or configure an existing one with `okta login`
 
+## Configure Okta
+
+Ensure that your default custom authorization server has an access policy. Add an access policy if it's not there. See [Create access polices](https://help.okta.com/okta_help.htm?type=oie&id=ext-create-access-policies).
+
+
 ## Get the Code
 
 Grab and configure this project using `okta start go-api`
